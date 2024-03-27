@@ -12,8 +12,8 @@ public class Ferragnez {
             if (list[i].equals(name)) {
                 System.out.println("Welcome " + name + " you are on the list");
                 break;
-            } else {
-                System.out.println("Sorry you are not on the list");
+            } else if (i == 10) {
+                System.out.println("Sorry " + name + " you are not on the list");
             }
         }
         keyboard.close();
