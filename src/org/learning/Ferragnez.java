@@ -10,11 +10,12 @@ public class Ferragnez {
         String name = keyboard.nextLine();
         for (int i = 0; i < list.length; i++) {
             if (list[i].equals(name)) {
-                System.out.println("puoi entrare");
+                System.out.println("Welcome " + name + " you are on the list");
                 break;
             } else {
-                System.out.println("non puoi entrare");
+                System.out.println("Sorry you are not on the list");
             }
         }
+        keyboard.close();
     }
 }
