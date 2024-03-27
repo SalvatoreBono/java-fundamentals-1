@@ -12,8 +12,8 @@ public class MyFavoriteFoods {
             food[i] = keyboard.nextLine();
         }
         System.out.println("Il tuo cibo preferito è: " + food[0]);
-        System.out.println("Il tuo ultimo cibo preferito è: " + food[4]);
-        System.out.println("Il cibo di mezzo è: " + food[2]);
+        System.out.println("Il tuo ultimo cibo preferito è: " + food[food.length - 1]);
+        System.out.println("Il cibo di mezzo è: " + food[food.length / 2]);
         keyboard.close();
     }
 }
